@@ -1,0 +1,63 @@
+:root {
+    --main-bg: #F0F0F0;
+    --code-bg: #FDFDFD;
+    --hr-bg: #C0C0C0
+}
+
+html {
+    font-size: 24px;
+    background-color: var(--main-bg);
+    overflow-y: scroll;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.error {
+  background-color: darkred;
+}
+
+.post-edit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-preview-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-editor {
+  overflow: auto;
+  width: 22rem;
+  height: 10rem;
+  resize: both;
+}
+
+.post-preview {
+  overflow: auto;
+  width: 22rem;
+  height: 10rem;
+  resize: both;
+}
+
+.panel {
+  clear: both;
+}
+
+.side {
+  width: 8rem;
+}
+
+blockquote {
+    margin: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+blockquote cite {
+    font-size: 0.8rem;
+    display: block;
+}
